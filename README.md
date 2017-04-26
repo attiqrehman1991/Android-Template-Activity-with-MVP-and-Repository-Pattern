@@ -22,7 +22,7 @@ Copy `MVP with Respositary Pattern` folder in your Android Studio installation i
 Restart Android Studio, and you will find it in: **New -> Activity -> MVP with Respositary Pattern**
 
 ![Screen](https://raw.githubusercontent.com/attiqrehman1991/MVPwithRepositorySoftwarePatternTemplate/master/screenshot.png)
-
+![Screen](https://raw.githubusercontent.com/attiqrehman1991/MVPwithRepositorySoftwarePatternTemplate/master/screenshot%202.png)
 
 
  
