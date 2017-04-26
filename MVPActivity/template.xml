@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="6"
+    name="MVP Activity"
+    description="Creates a new activity that follow MVP + DAO Structure."
+    requireAppTheme="true"
+    minApi="8"
+    minBuildApi="14">
+
+    <dependency name="android-support-v4" revision="8" />
+
+    <category value="Activity" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="activityClass"
+        name="Activity Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MVPActivity"
+        help="The name of the activity class to create" />
+
+    <parameter
+        id="layoutName"
+        name="Layout Name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${activityToLayout(activityClass)}"
+        default="activity_mvp"
+        help="The name of the layout to create for the activity" />
+
+    <parameter
+        id="activityTitle"
+        name="Title"
+        type="string"
+        constraints="nonempty"
+        default="MVP with R layer"
+        help="The name of the activity." />
+
+    <parameter
+        id="activityPresenter"
+        name="Title"
+        type="string"
+        constraints="activity|exists|empty"
+        default="MainPresenter"
+        help="The name of the activity's presenter." />
+
+    <parameter
+        id="parentActivityClass"
+        name="Hierarchical Parent"
+        type="string"
+        constraints="activity|exists|empty"
+        default=""
+        help="The hierarchical parent activity, used to provide a default implementation for the 'Up' button" />
+
+    <parameter
+        id="parentActivityClass"
+        name="Hierarchical Parent"
+        type="string"
+        constraints="activity|exists|empty"
+        default=""
+        help="The hierarchical parent activity, used to provide a default implementation for the 'Up' button" />
+
+    <parameter
+        id="repositaryClass"
+        name="Repositary Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="GenericRepositary"
+        help="The name of the generic class to create" />
+
+    <parameter
+        id="serviceClass"
+        name="Service Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="ServiceRepositary"
+        help="The name of the service class to extend GenericRepositary" />
+
+    <parameter
+        id="modelClass"
+        name="Pojo Class"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="PojoClass"
+        help="The name of the service class to extend GenericRepositary" />
+
+    <thumbs>
+        <thumb>template_login_activity.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
