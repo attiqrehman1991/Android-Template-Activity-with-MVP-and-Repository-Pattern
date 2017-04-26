@@ -10,18 +10,18 @@ import java.util.List;
  */
 public class ${activityPresenter} {
 
-public ${serviceClass} serviceClass;
 public ${activityClass}View activityView;
 
-public ${activityPresenter} (${serviceClass} serviceClass, ${activityClass}View activityView) {
-this.serviceClass= serviceClass;
+public ${activityPresenter} (${activityClass}View activityView) {
 this.activityView= activityView;
 }
 
 public void getList() {
+${repositaryClass} repositaryClass= new ${serviceClass}();
+
 activityView.showWait();
 
-serviceClass.getAll();
+repositaryClass.getAll();
 
 activityView.removeWait();
 }

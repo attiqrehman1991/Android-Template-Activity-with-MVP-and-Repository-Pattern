@@ -16,8 +16,6 @@ public class ${activityClass} extends ${superClass} implements ${activityClass}V
      */
     // UI references.
 
-	private ${serviceClass} serviceClass;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,18 +30,19 @@ renderView();
 	        // Set up the widgets
 	}
 	
+	// create network request 
 	private void createRequest() {
-        serviceClass= new ${serviceClass}();
-	${activityPresenter} activityPresenter= new ${activityPresenter}(serviceClass, this);
+	${activityPresenter} activityPresenter= new ${activityPresenter}(this);
 	activityPresenter.getList();
 	}
 	
-	
+	// code to show progress bar	
     @Override
     public void showWait() {
         
     }
 
+	// code to remove progress bar
     @Override
     public void removeWait() {
 
