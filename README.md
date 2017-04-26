@@ -28,7 +28,9 @@ Restart Android Studio, and you will find it in: **New -> Activity -> MVP with R
  
 ## Encourgement
 
+* Khawar Shahzad - Ex Competancy Lead Systems Limited
 * Gabriele Mariotti 's Android Studio Template
+* Sheikh Muhammad Roshan - Software Engineer Systems Limited
 
 
 Acknowledgements
