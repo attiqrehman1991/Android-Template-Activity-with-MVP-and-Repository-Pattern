@@ -25,7 +25,7 @@ SOFTWARE.
 <template
     format="5"
     revision="6"
-    name="MVP Activity"
+    name="MVP with Respositary Pattern"
     description="Creates a new activity that follow MVP + DAO Structure."
     requireAppTheme="true"
     minApi="8"
