@@ -32,17 +32,17 @@
 
     <parameter
         id="activityTitle"
-        name="Title"
+        name="Title of Activity"
+        default="MainActivity"
         type="string"
         constraints="nonempty"
-        default="MVP with R layer"
         help="The name of the activity." />
 
     <parameter
         id="activityPresenter"
-        name="Title"
+        name="Title of Presenter"
         type="string"
-        constraints="activity|exists|empty"
+        constraints="nonempty"
         default="MainPresenter"
         help="The name of the activity's presenter." />
 
