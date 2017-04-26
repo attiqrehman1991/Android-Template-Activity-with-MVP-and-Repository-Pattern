@@ -9,8 +9,7 @@ An Android Studio templates for Android development.
 
 The `templates` folder contains these templates:
 
-* [MVP with Respositary Pattern]: creates an android activity creates MVPActivity.
-* [MVPActivity]: in Progress
+* [MVPActivity]: creates an android activity creates MVPActivity
 
 
 
