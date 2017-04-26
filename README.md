@@ -21,10 +21,6 @@ Copy `MVP with Respositary Pattern` folder in your Android Studio installation i
 
 Restart Android Studio, and you will find it in: **New -> Activity -> MVP with Respositary Pattern**
 ![Screen](https://raw.githubusercontent.com/attiqrehman1991/Android-Template-Activity-with-MVP-and-Repository-Pattern/master/screenshot.gif)
-![Screen](https://raw.githubusercontent.com/attiqrehman1991/MVPwithRepositorySoftwarePatternTemplate/master/screenshot.png)
-![Screen](https://raw.githubusercontent.com/attiqrehman1991/MVPwithRepositorySoftwarePatternTemplate/master/screenshot2.png)
-![Screen](https://raw.githubusercontent.com/attiqrehman1991/MVPwithRepositorySoftwarePatternTemplate/master/screenshot3.png)
-
  
 ## Encourgement
 
