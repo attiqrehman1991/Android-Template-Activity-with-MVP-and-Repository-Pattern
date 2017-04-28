@@ -3,7 +3,8 @@ package ${packageName};
 import java.util.List;
 
 /**
- * A login screen that offers login via email/password.
+ * A Service (network class) implements Generic Repository
+ * Use this class to write network call and for new method, create new class
  */
 public class ${serviceClass} implements ${repositaryClass}<${modelClass}> {
 

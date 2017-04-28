@@ -6,7 +6,8 @@ import ${applicationPackage}.R;
 </#if>
 
 /**
- * A login screen that offers login via email/password.
+ * An Activity class that privode MVP implementation
+ * Use createRequest method to create request
  */
 public class ${activityClass} extends ${superClass} implements ${activityClass}View{
 
@@ -26,6 +27,7 @@ public class ${activityClass} extends ${superClass} implements ${activityClass}V
 renderView();
     }
 	
+	// initlize the widgers
 	private void renderView() {
 	        // Set up the widgets
 	}

@@ -2,7 +2,8 @@ package ${packageName};
 
 
 /**
- * A login screen that offers login via email/password.
+ * A Sample Data model class, 
+ * Update it according it to your requirements
  */
 public class ${modelClass} {
 

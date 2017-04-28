@@ -3,7 +3,7 @@ package ${packageName};
 import java.util.List;
 
 /**
- * A login screen that offers login via email/password.
+ * Generic and common repository for all network call
  */
 public interface ${repositaryClass}<T> {
 

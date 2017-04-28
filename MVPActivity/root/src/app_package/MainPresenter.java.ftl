@@ -1,13 +1,12 @@
 package ${packageName};
 
-
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
- * A login screen that offers login via email/password.
+ * A Presenter class to provide assistance to Activity class
  */
+ 
 public class ${activityPresenter} {
 
 public ${activityClass}View activityView;
