@@ -10,7 +10,7 @@ An Android Studio templates for Android development.
 The `templates` folder contains these templates:
 
 * [MVPActivity]: creates an android activity creates MVPActivity
-
+* [MVPLoginActivity]: creates an android activity creates MVPActivity for LoginScreen
 
 
 ### MVP with Respositary Pattern
